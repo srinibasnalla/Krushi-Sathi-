@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #f8f7f4;
+    color: #1c1917;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  .font-serif-accent {
+    font-family: 'Newsreader', Georgia, serif;
+  }
+}
+
+/* Bento custom styling helpers */
+.bento-card {
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(231, 229, 228, 0.9);
+  box-shadow: 0 1px 3px 0 rgba(28, 25, 23, 0.04), 0 1px 2px -1px rgba(28, 25, 23, 0.04);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover {
+  border-color: rgba(214, 211, 209, 1);
+  box-shadow: 0 4px 12px 0 rgba(28, 25, 23, 0.06);
+}
+
+.bento-card-dark {
+  background-color: #172520;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(41, 62, 53, 0.8);
+  color: #f5f5f4;
+}
